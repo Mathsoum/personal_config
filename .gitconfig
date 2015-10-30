@@ -1,0 +1,22 @@
+[color]
+	commit = auto
+	log = auto
+	diff = auto
+	status = auto
+	branch = auto
+[user]
+	name = Mathieu SOUM
+	email = mathieu.soum@gmail.com
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+    add = add --all
+	log = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = simple
+[url "git://anongit.kde.org/"]
+	insteadOf = kde:
+[url "git@git.kde.org:"]
+	pushInsteadOf = kde:
