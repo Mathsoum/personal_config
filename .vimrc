@@ -30,7 +30,7 @@ set cindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set noexpandtab
+set expandtab       " Use spaces instead of tabs
 set scrolloff=3
 set title
 set ruler
@@ -42,6 +42,8 @@ set t_Co=256
 colorscheme zenburn
 set background=dark
 
+" Add include to path
+set path+=.,/usr/local/include,,
 
 set exrc			" Use local .vimrc (or similar) if there is any
 set secure			" Forbid usage of certain commands in local .vimrc file (security issue)
